@@ -1,0 +1,481 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Struct-terior | Premium Civil & Interior Design</title>
+    <link rel="stylesheet" href="styles.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/aos/2.3.4/aos.css">
+</head>
+<body>
+    <!-- Header Section -->
+    <header class="navbar">
+        <div class="container">
+            <div class="logo">
+                <h1>Struct-<span>terior</span></h1>
+            </div>
+            <nav id="navbar" class="nav-menu">
+                <ul>
+                    <li><a href="#home" class="active">Home</a></li>
+                    <li><a href="#services">Services</a></li>
+                    <li><a href="#projects">Projects</a></li>
+                    <li><a href="#about">About</a></li>
+                    <li><a href="#testimonials">Testimonials</a></li>
+                    <li><a href="#contact">Contact</a></li>
+                </ul>
+            </nav>
+            <div class="hamburger" id="hamburger">
+                <div class="bar"></div>
+                <div class="bar"></div>
+                <div class="bar"></div>
+            </div>
+        </div>
+    </header>
+
+    <!-- Hero Section -->
+    <section id="home" class="hero">
+        <div class="overlay"></div>
+        <div class="container">
+            <div class="hero-content" data-aos="fade-up" data-aos-duration="1000">
+                <h1>Transform Your Space Into Art</h1>
+                <p>Premium architectural design and interior solutions for residential and commercial spaces</p>
+                <div class="hero-buttons">
+                    <a href="#services" class="btn btn-primary">Our Services</a>
+                    <a href="#contact" class="btn btn-outline">Get a Quote</a>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Services Section -->
+    <section id="services" class="services">
+        <div class="container">
+            <div class="section-header" data-aos="fade-up">
+                <h2>Our Premium Services</h2>
+                <p>Comprehensive design solutions tailored to your vision</p>
+            </div>
+            <div class="services-grid">
+                <div class="service-card" data-aos="fade-up" data-aos-delay="100">
+                    <div class="service-icon">
+                        <i class="fas fa-drafting-compass"></i>
+                    </div>
+                    <h3>Architectural Design</h3>
+                    <p>Innovative architectural solutions that balance aesthetics, functionality, and sustainability for residential and commercial projects.</p>
+                </div>
+                <div class="service-card" data-aos="fade-up" data-aos-delay="200">
+                    <div class="service-icon">
+                        <i class="fas fa-pencil-ruler"></i>
+                    </div>
+                    <h3>2D Floor Plans</h3>
+                    <p>Detailed and precise 2D drawings that perfectly capture your spatial requirements and structural specifications.</p>
+                </div>
+                <div class="service-card" data-aos="fade-up" data-aos-delay="300">
+                    <div class="service-icon">
+                        <i class="fas fa-cubes"></i>
+                    </div>
+                    <h3>3D Visualization</h3>
+                    <p>Photorealistic 3D renderings that bring your project to life before construction begins, allowing you to visualize every detail.</p>
+                </div>
+                <div class="service-card" data-aos="fade-up" data-aos-delay="400">
+                    <div class="service-icon">
+                        <i class="fas fa-home"></i>
+                    </div>
+                    <h3>Interior Design</h3>
+                    <p>Elegant interior solutions that transform spaces with thoughtful material selection, color schemes, and custom furniture designs.</p>
+                </div>
+                <div class="service-card" data-aos="fade-up" data-aos-delay="500">
+                    <div class="service-icon">
+                        <i class="fas fa-tasks"></i>
+                    </div>
+                    <h3>Project Management</h3>
+                    <p>End-to-end project supervision ensuring quality execution within timeline and budget constraints.</p>
+                </div>
+                <div class="service-card" data-aos="fade-up" data-aos-delay="600">
+                    <div class="service-icon">
+                        <i class="fas fa-leaf"></i>
+                    </div>
+                    <h3>Sustainable Design</h3>
+                    <p>Eco-friendly design approaches that minimize environmental impact while maximizing energy efficiency.</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Projects Showcase -->
+    <section id="projects" class="projects">
+        <div class="container">
+            <div class="section-header" data-aos="fade-up">
+                <h2>Our Signature Projects</h2>
+                <p>Discover our portfolio of exceptional designs</p>
+            </div>
+            <div class="project-filters" data-aos="fade-up">
+                <button class="filter-btn active" data-filter="all">All</button>
+                <button class="filter-btn" data-filter="residential">Residential</button>
+                <button class="filter-btn" data-filter="commercial">Commercial</button>
+                <button class="filter-btn" data-filter="interior">Interior</button>
+            </div>
+            <div class="projects-grid">
+                <div class="project-card residential" data-aos="fade-up">
+                    <div class="project-img">
+                        <img src="/api/placeholder/800/500" alt="Modern Villa Project">
+                        <div class="project-overlay">
+                            <div class="project-info">
+                                <h3>Modern Villa Design</h3>
+                                <p>Residential Architecture</p>
+                                <a href="#" class="btn-small">View Project</a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="project-card commercial" data-aos="fade-up" data-aos-delay="100">
+                    <div class="project-img">
+                        <img src="/api/placeholder/800/500" alt="Corporate Office">
+                        <div class="project-overlay">
+                            <div class="project-info">
+                                <h3>Tech Hub Offices</h3>
+                                <p>Commercial Design</p>
+                                <a href="#" class="btn-small">View Project</a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="project-card interior" data-aos="fade-up" data-aos-delay="200">
+                    <div class="project-img">
+                        <img src="/api/placeholder/800/500" alt="Luxury Apartment Interior">
+                        <div class="project-overlay">
+                            <div class="project-info">
+                                <h3>Luxury Penthouse</h3>
+                                <p>Interior Design</p>
+                                <a href="#" class="btn-small">View Project</a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="project-card residential" data-aos="fade-up" data-aos-delay="300">
+                    <div class="project-img">
+                        <img src="/api/placeholder/800/500" alt="Eco-friendly Home">
+                        <div class="project-overlay">
+                            <div class="project-info">
+                                <h3>Eco-friendly Residence</h3>
+                                <p>Sustainable Architecture</p>
+                                <a href="#" class="btn-small">View Project</a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="project-card commercial interior" data-aos="fade-up" data-aos-delay="400">
+                    <div class="project-img">
+                        <img src="/api/placeholder/800/500" alt="Boutique Hotel">
+                        <div class="project-overlay">
+                            <div class="project-info">
+                                <h3>Boutique Hotel</h3>
+                                <p>Hospitality Design</p>
+                                <a href="#" class="btn-small">View Project</a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="project-card interior" data-aos="fade-up" data-aos-delay="500">
+                    <div class="project-img">
+                        <img src="/api/placeholder/800/500" alt="Modern Kitchen Design">
+                        <div class="project-overlay">
+                            <div class="project-info">
+                                <h3>Contemporary Kitchen</h3>
+                                <p>Interior Design</p>
+                                <a href="#" class="btn-small">View Project</a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- About Section -->
+    <section id="about" class="about">
+        <div class="container">
+            <div class="about-content">
+                <div class="about-image" data-aos="fade-right">
+                    <img src="/api/placeholder/600/800" alt="Our Team">
+                </div>
+                <div class="about-text" data-aos="fade-left">
+                    <div class="section-header">
+                        <h2>About Elegance Interiors</h2>
+                    </div>
+                    <p>For over 15 years, Elegance Interiors has been at the forefront of innovative architectural and interior design. Our award-winning team combines creativity with technical expertise to deliver exceptional spaces that exceed client expectations.</p>
+                    <p>We believe that great design should harmonize aesthetics, functionality, and sustainability. Our collaborative approach ensures that each project reflects the unique vision and requirements of our clients.</p>
+                    <div class="stats-container">
+                        <div class="stat-item">
+                            <span class="stat-number" data-count="250">0</span>
+                            <span class="stat-text">Completed Projects</span>
+                        </div>
+                        <div class="stat-item">
+                            <span class="stat-number" data-count="15">0</span>
+                            <span class="stat-text">Years of Experience</span>
+                        </div>
+                        <div class="stat-item">
+                            <span class="stat-number" data-count="18">0</span>
+                            <span class="stat-text">Design Awards</span>
+                        </div>
+                    </div>
+                    <a href="#contact" class="btn btn-primary">Work With Us</a>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Testimonials Section -->
+    <section id="testimonials" class="testimonials">
+        <div class="container">
+            <div class="section-header" data-aos="fade-up">
+                <h2>Client Testimonials</h2>
+                <p>What our clients say about our services</p>
+            </div>
+            <div class="testimonial-slider" data-aos="fade-up">
+                <div class="testimonial-track">
+                    <div class="testimonial-slide">
+                        <div class="testimonial-content">
+                            <div class="quote-icon">
+                                <i class="fas fa-quote-right"></i>
+                            </div>
+                            <p>"Elegance Interiors transformed our vision into reality with exceptional attention to detail. Their team was professional from concept to completion, and the results exceeded our expectations."</p>
+                            <div class="client-info">
+                                <h4>Sarah Johnson</h4>
+                                <p>Residential Client</p>
+                                <div class="rating">
+                                    <i class="fas fa-star"></i>
+                                    <i class="fas fa-star"></i>
+                                    <i class="fas fa-star"></i>
+                                    <i class="fas fa-star"></i>
+                                    <i class="fas fa-star"></i>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <!-- <div class="testimonial-slide">
+                        <div class="testimonial-content">
+                            <div class="quote-icon">
+                                <i class="fas fa-quote-right"></i>
+                            </div>
+                            <p>"As a property developer, I value partners who understand both design and business. Elegance Interiors consistently delivers innovative solutions that enhance value while staying within budget constraints."</p>
+                            <div class="client-info">
+                                <h4>Michael Chen</h4>
+                                <p>Commercial Developer</p>
+                                <div class="rating">
+                                    <i class="fas fa-star"></i>
+                                    <i class="fas fa-star"></i>
+                                    <i class="fas fa-star"></i>
+                                    <i class="fas fa-star"></i>
+                                    <i class="fas fa-star"></i>
+                                </div>
+                            </div>
+                        </div>
+                    </div> -->
+                    <!-- <div class="testimonial-slide">
+                        <div class="testimonial-content">
+                            <div class="quote-icon">
+                                <i class="fas fa-quote-right"></i>
+                            </div>
+                            <p>"The 3D visualizations provided by Elegance Interiors were incredibly realistic and helped us make confident decisions throughout the design process. The final result matched the renderings perfectly."</p>
+                            <div class="client-info">
+                                <h4>Emily Rodriguez</h4>
+                                <p>Restaurant Owner</p>
+                                <div class="rating">
+                                    <i class="fas fa-star"></i>
+                                    <i class="fas fa-star"></i>
+                                    <i class="fas fa-star"></i>
+                                    <i class="fas fa-star"></i>
+                                    <i class="fas fa-star-half-alt"></i>
+                                </div>
+                            </div>
+                        </div>
+                    </div> -->
+                </div>
+                <div class="testimonial-navigation">
+                    <button class="prev-btn"><i class="fas fa-chevron-left"></i></button>
+                    <div class="testimonial-dots"></div>
+                    <button class="next-btn"><i class="fas fa-chevron-right"></i></button>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Process Section -->
+    <section class="process">
+        <div class="container">
+            <div class="section-header" data-aos="fade-up">
+                <h2>Our Design Process</h2>
+                <p>How we bring your vision to life</p>
+            </div>
+            <div class="process-steps">
+                <div class="process-step" data-aos="fade-up" data-aos-delay="100">
+                    <div class="step-number">01</div>
+                    <h3>Consultation</h3>
+                    <p>We begin with a detailed consultation to understand your vision, requirements, and budget constraints.</p>
+                </div>
+                <div class="process-step" data-aos="fade-up" data-aos-delay="200">
+                    <div class="step-number">02</div>
+                    <h3>Concept Design</h3>
+                    <p>Our design team creates initial concepts and spatial layouts based on your requirements.</p>
+                </div>
+                <div class="process-step" data-aos="fade-up" data-aos-delay="300">
+                    <div class="step-number">03</div>
+                    <h3>3D Visualization</h3>
+                    <p>Photorealistic renderings help you visualize the final outcome before any construction begins.</p>
+                </div>
+                <div class="process-step" data-aos="fade-up" data-aos-delay="400">
+                    <div class="step-number">04</div>
+                    <h3>Detailed Design</h3>
+                    <p>We develop comprehensive technical drawings and specifications for construction.</p>
+                </div>
+                <div class="process-step" data-aos="fade-up" data-aos-delay="500">
+                    <div class="step-number">05</div>
+                    <h3>Implementation</h3>
+                    <p>Our project management team oversees the execution to ensure quality and adherence to timelines.</p>
+                </div>
+                <div class="process-step" data-aos="fade-up" data-aos-delay="600">
+                    <div class="step-number">06</div>
+                    <h3>Final Handover</h3>
+                    <p>We complete a thorough inspection before the final handover of your perfectly executed space.</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Call to Action -->
+    <section class="cta" data-aos="fade-up">
+        <div class="container">
+            <div class="cta-content">
+                <h2>Ready to Transform Your Space?</h2>
+                <p>Contact us today for a consultation and take the first step towards your dream project.</p>
+                <a href="#contact" class="btn btn-light">Get Started</a>
+            </div>
+        </div>
+    </section>
+
+    <!-- Contact Section -->
+    <section id="contact" class="contact">
+        <div class="container">
+            <div class="section-header" data-aos="fade-up">
+                <h2>Contact Us</h2>
+                <p>Reach out to discuss your project</p>
+            </div>
+            <div class="contact-container">
+                <div class="contact-info" data-aos="fade-right">
+                    <div class="info-item">
+                        <div class="icon">
+                            <i class="fas fa-map-marker-alt"></i>
+                        </div>
+                        <div>
+                            <h3>Our Office</h3>
+                            <p>123 Design Avenue, Creative District</p>
+                        </div>
+                    </div>
+                    <div class="info-item">
+                        <div class="icon">
+                            <i class="fas fa-phone"></i>
+                        </div>
+                        <div>
+                            <h3>Phone</h3>
+                            <p>+1 (555) 123-4567</p>
+                        </div>
+                    </div>
+                    <div class="info-item">
+                        <div class="icon">
+                            <i class="fas fa-envelope"></i>
+                        </div>
+                        <div>
+                            <h3>Email</h3>
+                            <p>info@eleganceinteriors.com</p>
+                        </div>
+                    </div>
+                    <div class="social-links">
+                        <a href="#"><i class="fab fa-facebook-f"></i></a>
+                        <a href="#"><i class="fab fa-instagram"></i></a>
+                        <a href="#"><i class="fab fa-pinterest-p"></i></a>
+                        <a href="#"><i class="fab fa-linkedin-in"></i></a>
+                    </div>
+                </div>
+                <div class="contact-form" data-aos="fade-left">
+                    <form id="contactForm">
+                        <div class="form-group">
+                            <input type="text" id="name" placeholder="Your Name" required>
+                        </div>
+                        <div class="form-group">
+                            <input type="email" id="email" placeholder="Your Email" required>
+                        </div>
+                        <div class="form-group">
+                            <input type="text" id="subject" placeholder="Subject">
+                        </div>
+                        <div class="form-group">
+                            <select id="service" required>
+                                <option value="" disabled selected>Select Service</option>
+                                <option value="architectural">Architectural Design</option>
+                                <option value="2d">2D Floor Plans</option>
+                                <option value="3d">3D Visualization</option>
+                                <option value="interior">Interior Design</option>
+                                <option value="project">Project Management</option>
+                                <option value="sustainable">Sustainable Design</option>
+                            </select>
+                        </div>
+                        <div class="form-group">
+                            <textarea id="message" placeholder="Your Message" required></textarea>
+                        </div>
+                        <button type="submit" class="btn btn-primary">Send Message</button>
+                    </form>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Footer -->
+    <footer>
+        <div class="container">
+            <div class="footer-content">
+                <div class="footer-column">
+                    <div class="footer-logo">
+                        <h2>Elegance<span>Interiors</span></h2>
+                    </div>
+                    <p>Transforming spaces with innovative design solutions that blend aesthetics with functionality.</p>
+                </div>
+                <div class="footer-column">
+                    <h3>Quick Links</h3>
+                    <ul>
+                        <li><a href="#home">Home</a></li>
+                        <li><a href="#services">Services</a></li>
+                        <li><a href="#projects">Projects</a></li>
+                        <li><a href="#about">About Us</a></li>
+                        <li><a href="#contact">Contact</a></li>
+                    </ul>
+                </div>
+                <div class="footer-column">
+                    <h3>Services</h3>
+                    <ul>
+                        <li>Architectural Design</li>
+                        <li>2D Floor Plans</li>
+                        <li>3D Visualization</li>
+                        <li>Interior Design</li>
+                        <li>Project Management</li>
+                    </ul>
+                </div>
+                <div class="footer-column">
+                    <h3>Newsletter</h3>
+                    <p>Subscribe to our newsletter for design inspiration and updates.</p>
+                    <form class="newsletter-form">
+                        <input type="email" placeholder="Your Email" required>
+                        <button type="submit"><i class="fas fa-paper-plane"></i></button>
+                    </form>
+                </div>
+            </div>
+            <div class="footer-bottom">
+                <p>&copy; 2025 Elegance Interiors. All Rights Reserved.</p>
+            </div>
+        </div>
+    </footer>
+
+    <!-- JavaScript -->
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/aos/2.3.4/aos.js"></script>
+    <script src="script.js"></script>
+</body>
+</html>
